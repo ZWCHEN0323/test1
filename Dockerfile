@@ -11,6 +11,6 @@ COPY . /app
 RUN pip install -r requirements.txt
 
 # 開放端口
-EXPOSE 5005
+EXPOSE 5000
 
-CMD ["sh", "-c", "cd myproject && python manage.py runserver 0.0.0.0:5005"]
+CMD ["sh", "-c", "cd myproject && python manage.py runserver 0.0.0.0:5000"]
