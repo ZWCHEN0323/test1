@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b6ffc07-1657-48ab-adaf-c1c6af15a003" name="Changes" comment="frontend">
+    <list default="true" id="9b6ffc07-1657-48ab-adaf-c1c6af15a003" name="Changes" comment="add test">
+      <change afterPath="$PROJECT_DIR$/procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/myapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myproject/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733984977237</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add test">
+      <option name="closed" value="true" />
+      <created>1735514745837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735514745837</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deploy Django to Docker" />
     <MESSAGE value="frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend" />
+    <MESSAGE value="add test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
