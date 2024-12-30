@@ -1,0 +1,1 @@
+web: echo "Start reading procfile" && gunicorn wsgi.py:application
