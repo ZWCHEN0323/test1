@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # 複製應用程式文件到容器中
-COPY . /app
+COPY myproject /app
 
 # 安裝依賴
 RUN pip install -r requirements.txt
@@ -13,4 +13,4 @@ RUN pip install -r requirements.txt
 # 開放端口
 EXPOSE 5000
 
-CMD ["sh", "-c", "cd myproject && python manage.py runserver 0.0.0.0:5000"]
+CMD ["sh", "-c", "python manage.py runserver 0.0.0.0:5000"]
